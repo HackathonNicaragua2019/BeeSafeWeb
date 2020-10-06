@@ -60,6 +60,10 @@
   font-weight: bold;
 }
 
+.imgLogo {
+  height: 10vh;
+}
+
 /*Contenedor principal*/
 .container {
   display: flex;

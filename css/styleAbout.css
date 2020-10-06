@@ -28,7 +28,7 @@ body {
 }
 
 .imgLogo {
-  height: 12.5vh;
+  height: 10vh;
 }
 
 .nav-item {
@@ -58,7 +58,7 @@ body {
 /*Seccion del Abaout*/
 .sectionAbout {
   width: 100%;
-  height: 35vh;
+  height: 25vh;
   /*background-color: brown;*/
 }
 
@@ -74,7 +74,7 @@ body {
 .parrAbout {
   font-size: 1.3em;
   font-family: Sofia;
-  text-align: justify;
+  text-align: left;
 }
 
 #imagRight {
@@ -86,30 +86,92 @@ body {
 }
 
 .lineAbout {
-  margin-top: 90px;
-  margin-bottom: 90px;
+  margin-top: 60px;
+  margin-bottom: 50px;
   background-color: #007680;
   text-align: justify;
 }
 
-/*Footer*/
-.piePagina{
+/*Parrafos de explicacion de equipo*/
+#contenedorInfoAbout1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#tituloAboutDos {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-size: 2.2em;
+  font-family: Sofia;
+}
+
+#parrAbout2 {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+#linkAbout {
+  text-decoration: none;
+  text-emphasis: none;
+  color: #007680;
+  font-weight: 500;
+}
+
+#imagenAbout2 {
+  margin-top: -30px;
+}
+
+/*Parrafo Largo*/
+#parrAbout3 {
+  margin-top: 30px;
+}
+
+/*Seccion About Banner*/
+.sectionAboutBanner {
   width: 100%;
-  height: 50vh;
+  height: 115vh;
+  background-image: url(../assets/Banners/About/BannerAboutfinal.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  display: flex;
+}
+
+#columnaFotos {
+  height: fit-content;
+}
+
+#FtM {
+  width: 100%;
+  height: 100vh !important;
+  margin-bottom: 30px !important;
+  cursor: pointer;
+}
+
+.fotoBannerPersonas {
+  margin-bottom: 10px !important;
+  cursor: pointer !important;
+}
+
+/*Footer*/
+.piePagina {
+  width: 100%;
+  height: fit-content;
   background-color: #007680;
 }
 
-.socialMediaFooter{
+.socialMediaFooter {
   height: 4.5vh;
   margin: 7px;
   margin-top: 60px;
 }
 
-#socialMediaLogos{
+#socialMediaLogos {
   margin-left: 25px;
 }
 
-#logoFooter{
+#logoFooter {
   height: 9.5vh;
   margin-bottom: 20px;
   margin-left: 25px;
@@ -121,7 +183,49 @@ body {
   color: rgba(255, 255, 255, 0.7);
 }
 
-#parrFooter{
+#parrFooter {
   margin-left: 25px;
   font-size: 1.3em;
+}
+
+@media (max-width: 500px) {
+  /*Primera Seccion About*/
+  .titleAbout {
+    margin-top: -15px;
+    margin-bottom: 8px;
+    font-size: 2.2em;
+  }
+
+  .parrAbout {
+    font-size: 1em;
+  }
+
+  #imgAboutTeam {
+    margin-top: 0px;
+    margin-bottom: -12px;
+  }
+
+  /*Parrafo Seccion 2*/
+  #tituloAboutDos {
+    margin-top: -25px;
+    margin-bottom: 20px;
+    font-size: 1.9em;
+  }
+
+  #parrAbout3 {
+    margin-top: -20px;
+  }
+
+  #imagenAbout2 {
+    margin-bottom: 15px;
+  }
+
+  /*Footer*/
+  #parrFooter {
+    font-size: 1.1em;
+  }
+
+  #logoFooter {
+    height: 7vh;
+  }
 }
